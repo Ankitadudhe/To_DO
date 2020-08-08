@@ -1,0 +1,81 @@
+
+    .header {
+        background-color: #b23066;
+        color: #fff;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 15px;
+    }
+
+/* .body{
+
+} */
+.body ul {margin: 0;
+padding: 15px;}
+.body ul li{
+    background: #ddd;
+    list-style: none;
+    margin-bottom: 10px;
+    line-height: 50px;
+    padding: 0px 10px;
+}
+.body ul li span{
+    cursor: pointer;
+    float: right;
+    font-weight: 500;
+    margin-top: 11px;
+}
+.footer {
+    width: 100%;
+    position: fixed;
+     bottom: 0; 
+     padding: 15px;
+      background-color: #b23066; 
+    }
+.footer input:focus{outline: none}
+ .footer input{
+    width: 90%;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid#fff;
+    color: white;
+    font-size: 15px;
+    height: 35px;
+} 
+footer button :focus{outline:none}
+
+.footer button{
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top:-18px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+    color: white;
+    box-shadow: 2px 2px 3px;
+    background-color: #b23066;
+}
+.edit{
+    margin: 10px;
+}
+#update{
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    right: 50px;
+    height: auto;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    box-shadow: 2px 2px 3px; 
+    background-color: #b23066;
+    display: none;
+}
