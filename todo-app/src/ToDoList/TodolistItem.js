@@ -6,7 +6,6 @@ function TodolistItem(props) {
        return(
        <>
        <div className='todo_style'>
-           {/* <i class="fa fa-times" aria-hidden="true"/> */}
       <button id="button" className="alert alert-danger"
       onClick={
           ()=>{props.onSelect(props.id);

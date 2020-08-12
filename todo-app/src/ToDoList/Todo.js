@@ -9,12 +9,12 @@ function Todo(props) {
     const itemEvent=(event)=>{
     setInputList(event.target.value);
     }
+    //update array
     const listOfItem=()=>{
      setItems((oldItems)=>{
       return [...oldItems,inputList];
   });
-  
-   setInputList(" ")
+  setInputList(" ")
 }
     const deleteItems =(id)=>{
     setItems((oldItems)=>{
@@ -38,7 +38,6 @@ function Todo(props) {
       <ol>
     {/* <li>{inputList}</li> */}
     {items.map((itemvalue,index)=>{
-        // return<li>{itemvalue}</li>
         return <TodolistItem 
         key={index}
         id={index}
